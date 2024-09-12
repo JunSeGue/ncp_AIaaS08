@@ -53,7 +53,7 @@ public class NcpObjectStorageService implements ObjectStorageService {
 
       s3.putObject(objectRequest);
 
-      //return s3.getUrl(bucketName, directoryPath + filename).toString();
+//      return s3.getUrl(bucketName, directoryPath + filename).toString();
       return filename;
 
     } catch (Exception e) {

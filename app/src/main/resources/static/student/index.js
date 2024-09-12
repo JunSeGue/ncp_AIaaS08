@@ -87,10 +87,10 @@ function getStudent(e) {
       if (student.photo) {
         document.querySelector(
           "#f-photo-origin"
-        ).href = `https://kr.object.ncloudstorage.com/ncp08-bucket-9999-member-photo/${student.photo}`;
+        ).href = `https://kr.object.ncloudstorage.com/ncp-ai08-bucket-1515-member-photo/${student.photo}`;
         document.querySelector(
           "#f-photo"
-        ).src = `https://qpiqyyah3598.edge.naverncp.com/bwoyTzEyAM/${student.photo}?type=f&w=80&h=80&faceopt=true&ttype=jpg`;
+        ).src = `https://jcs1nill4740.edge.naverncp.com/PkUM2lEbXT/${student.photo}?type=f&w=80&h=80&faceopt=true&ttype=jpg`;
       } /*else {
         document.querySelector("#f-photo").src = "../images/no-body.webp";
       }*/
